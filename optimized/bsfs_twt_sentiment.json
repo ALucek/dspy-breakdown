@@ -1,0 +1,95 @@
+{
+  "lm": null,
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "tweet": "Last session of the day  http:\/\/twitpic.com\/67ezh",
+      "sentiment": "neutral"
+    },
+    {
+      "augmented": true,
+      "tweet": " Shanghai is also really exciting (precisely -- skyscrapers galore). Good tweeps in China:  (SH)  (BJ).",
+      "sentiment": "positive"
+    },
+    {
+      "augmented": true,
+      "tweet": "Recession hit Veronique Branquinho, she has to quit her company, such a shame!",
+      "sentiment": "negative"
+    },
+    {
+      "augmented": true,
+      "tweet": " happy bday!",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": " Ur so cute..I`m a fan of Dream A Little Dream, This Kiss and appearances like in Dawson`s Creek  Make more flicks!",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "No AC, the fan doesnt swing our way ... we are sweating it out on a hot humid day",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "Cramps . . .",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " haaaw..well i get out of class at 10:50..i hope i make it",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "Happy Mothers Day!!!",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": " soooooo wish i could, but im in school and myspace is completely blocked",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " you should totally come get me and bring me to kelslaws house with you.",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "  im really sorry i know wallah how u feel this life is shittttttttt",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " I can`t call Mitch!  Im from sweden!",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": " thats so cool",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "Happy Birthday Snickers!!!! ? I hope you have the best day ever! Let`s go shopping!!!",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": " did he ask for your Twitter ID? Your sun sign?",
+      "sentiment": "neutral"
+    }
+  ],
+  "signature": {
+    "instructions": "Given the fields `tweet`, produce the fields `sentiment`.",
+    "fields": [
+      {
+        "prefix": "Tweet:",
+        "description": "Candidate tweet for classificaiton"
+      },
+      {
+        "prefix": "Sentiment:",
+        "description": "${sentiment}"
+      }
+    ]
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12.0",
+      "dspy": "2.5.43",
+      "cloudpickle": "3.0.0"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "lm": null,
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "tweet": "The underwire in my bra is sticking out and poking me in the armpit",
+      "sentiment": "negative"
+    },
+    {
+      "augmented": true,
+      "tweet": " I always forget SOMETHING when I travel. I am at Newark airport.",
+      "sentiment": "neutral"
+    },
+    {
+      "augmented": true,
+      "tweet": " that`s great!! weee!! visitors!",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": " Miss you",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " Thank you!  I`m working on `s",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "Guess what? mom adopted a kitty today (11 months) His name is Corky",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "thinks SG is wonderful",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": " .. and you`re on twitter! Did the tavern bore you that much?",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "So hot today =_=  don`t like it and i hate my new timetable, having such a bad week",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "http:\/\/twitpic.com\/4wp8s - My ear hurts, and THIS is my medicine. GUM",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "Happy star wars day! May the fourth be with you",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": " you are lame  go make me breakfast!!",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "Last session of the day  http:\/\/twitpic.com\/67ezh",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "Terminator Salvation... by myself.",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "On the monday, so i wont be able to be with you!  i love you",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "Recession hit Veronique Branquinho, she has to quit her company, such a shame!",
+      "sentiment": "negative"
+    }
+  ],
+  "signature": {
+    "instructions": "Analyze the sentiment of the provided tweet and determine whether it conveys a positive, negative, or neutral emotion. Consider the context, tone, and language used in the tweet to accurately classify the sentiment. Provide the sentiment label as the output.",
+    "fields": [
+      {
+        "prefix": "Tweet:",
+        "description": "Candidate tweet for classificaiton"
+      },
+      {
+        "prefix": "Sentiment:",
+        "description": "${sentiment}"
+      }
+    ]
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12.0",
+      "dspy": "2.5.43",
+      "cloudpickle": "3.0.0"
+    }
+  }
+}

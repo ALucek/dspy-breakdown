@@ -1,0 +1,26 @@
+{
+  "lm": null,
+  "traces": [],
+  "train": [],
+  "demos": [],
+  "signature": {
+    "instructions": "Given a social media post, determine the sentiment it expresses, categorizing it as either \"positive,\" \"negative,\" or \"neutral.\" Use the textual emotions within the post content to make an accurate judgment. Your goal is to provide an objective evaluation based on the tone and context of the post.",
+    "fields": [
+      {
+        "prefix": "Tweet:",
+        "description": "Candidate tweet for classificaiton"
+      },
+      {
+        "prefix": "Analyzed Sentiment:",
+        "description": "${sentiment}"
+      }
+    ]
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12.0",
+      "dspy": "2.5.43",
+      "cloudpickle": "3.0.0"
+    }
+  }
+}

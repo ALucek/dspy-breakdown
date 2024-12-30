@@ -1,0 +1,26 @@
+{
+  "lm": null,
+  "traces": [],
+  "train": [],
+  "demos": [],
+  "signature": {
+    "instructions": "Given the fields `tweet`, produce the fields `sentiment`.",
+    "fields": [
+      {
+        "prefix": "Tweet:",
+        "description": "Candidate tweet for classificaiton"
+      },
+      {
+        "prefix": "Sentiment:",
+        "description": "${sentiment}"
+      }
+    ]
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12.0",
+      "dspy": "2.5.43",
+      "cloudpickle": "3.0.0"
+    }
+  }
+}

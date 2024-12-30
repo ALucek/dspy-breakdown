@@ -1,0 +1,92 @@
+{
+  "lm": null,
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "tweet": "Last session of the day  http:\/\/twitpic.com\/67ezh",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "Terminator Salvation... by myself.",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": " I checked.  We didn`t win",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "I`m so very tired...and have insomnia.",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": ": hmmm, wrong link, ignore my tweet",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " soooooo wish i could, but im in school and myspace is completely blocked",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "Tracy and Berwick breaks my achy breaky heart  They split ways in the hallways.",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": " Shanghai is also really exciting (precisely -- skyscrapers galore). Good tweeps in China:  (SH)  (BJ).",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": " look who I found just for you  --->  http:\/\/twitter.com\/DJT2009",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "So I really need to put the laptop down & start getting ready for  shindig...But I`ve missed my TwitterLoves all day",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "feels sorry every time I`m printing out, I use like 200 new papers",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "Gnight shar   <(` `<)Vega(>` `)>",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "Is watching acoustic performances! & In the mood for a good 'FRIENDS' episode! I miss that show",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": " for...the...loss. dumbface  ...him, not u. what u up to on the wknd? i wanna seeeeeee ya!",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "reality needs to check in. schools over. time to party  not tonight tho, im going to bed. night, night.",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": " http:\/\/twitpic.com\/4w75p - I like it!!",
+      "sentiment": "positive"
+    }
+  ],
+  "signature": {
+    "instructions": "Given the fields `tweet`, produce the fields `sentiment`.",
+    "fields": [
+      {
+        "prefix": "Tweet:",
+        "description": "Candidate tweet for classificaiton"
+      },
+      {
+        "prefix": "Sentiment:",
+        "description": "${sentiment}"
+      }
+    ]
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12.0",
+      "dspy": "2.5.43",
+      "cloudpickle": "3.0.0"
+    }
+  }
+}

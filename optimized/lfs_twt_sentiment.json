@@ -1,0 +1,91 @@
+{
+  "lm": null,
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "tweet": "Not happy",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "Take antibacterial to school to clean your hands when you cant go the loos",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": " Thanks Ennio",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": " that`s great!! weee!! visitors!",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": " did he ask for your Twitter ID? Your sun sign?",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "I just cried whilst watching hollyoaks  .. i need a life! lol",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "Change of plans. I am staying in Brandon.  No Papaya Salad for me.",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": " I`ll oscillate from one to the other.",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": " I`m sorry  at least it`s Friday?",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "_xo   dang it, so its not certain ? ? ? are you okay?",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "  Hope ur havin fun in da club",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "_LaMont yr very young looking dude",
+      "sentiment": "positive"
+    },
+    {
+      "tweet": "Huh, another ScarePoint coding Sunday",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "at starbucks with my love. eff school. i have work later too.",
+      "sentiment": "neutral"
+    },
+    {
+      "tweet": "Cramps . . .",
+      "sentiment": "negative"
+    },
+    {
+      "tweet": "Happy mothers day mumm  xoxo",
+      "sentiment": "positive"
+    }
+  ],
+  "signature": {
+    "instructions": "Given the fields `tweet`, produce the fields `sentiment`.",
+    "fields": [
+      {
+        "prefix": "Tweet:",
+        "description": "Candidate tweet for classificaiton"
+      },
+      {
+        "prefix": "Sentiment:",
+        "description": "${sentiment}"
+      }
+    ]
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12.0",
+      "dspy": "2.5.43",
+      "cloudpickle": "3.0.0"
+    }
+  }
+}
